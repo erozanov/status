@@ -16,8 +16,5 @@ status-website:
       href: https://github.com/$OWNER/$REPO
 notifications:
   - type: telegram
-    payload:
-      token: $TELEGRAM_BOT_TOKEN
-      chatId: $TELEGRAM_CHAT_ID
 assignees:
   - erozanov
