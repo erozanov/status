@@ -5,18 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/status.anonym.keenetic.pro.ico",
     "slug": "synology-dsm",
     "status": "down",
-    "uptime": "14.86%",
-    "uptimeDay": "14.86%",
-    "uptimeWeek": "14.86%",
-    "uptimeMonth": "14.86%",
-    "uptimeYear": "14.86%",
-    "time": 830,
-    "timeDay": 830,
-    "timeWeek": 830,
-    "timeMonth": 830,
-    "timeYear": 830,
+    "uptime": "13.32%",
+    "uptimeDay": "13.32%",
+    "uptimeWeek": "13.32%",
+    "uptimeMonth": "13.32%",
+    "uptimeYear": "13.32%",
+    "time": 795,
+    "timeDay": 795,
+    "timeWeek": 795,
+    "timeMonth": 795,
+    "timeYear": 795,
     "dailyMinutesDown": {
-      "2026-01-31": 66
+      "2026-01-31": 75
     }
   }
 ]
