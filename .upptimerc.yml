@@ -1,14 +1,11 @@
-# 1. Укажите ваши данные GitHub
 owner: erozanov
 repo: status
 
-# 2. Мониторинг вашего Synology
 sites:
   - name: "Synology DSM"
     url: https://status.anonym.keenetic.pro
     check: "http"
 
-# 3. Настройка страницы статуса
 status-website:
   baseUrl: /status
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
@@ -21,13 +18,11 @@ status-website:
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-# 4. Уведомления в Telegram (используют секреты, которые вы уже добавили)
 notifications:
   - type: telegram
     payload:
       token: $TELEGRAM_BOT_TOKEN
       chatId: $TELEGRAM_CHAT_ID
 
-# Дополнительные настройки для работы GitHub Actions
 assignees:
   - erozanov
