@@ -1,29 +1,23 @@
 owner: erozanov
 repo: status
-
-# Переместили уведомления в начало, чтобы скрипт их точно увидел
-notifications:
-  - type: telegram
-    payload:
-      token: $TELEGRAM_BOT_TOKEN
-      chatId: $TELEGRAM_CHAT_ID
-
 sites:
   - name: "Synology DSM"
     url: https://status.anonym.keenetic.pro
     check: "http"
-
 status-website:
   baseUrl: /status
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: My Home Infrastructure
-  introTitle: "Мониторинг Synology"
-  introMessage: "Статус-страница обновляется автоматически."
+  introTitle: "Monitoring"
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
+notifications:
+  - type: telegram
+    payload:
+      token: $TELEGRAM_BOT_TOKEN
+      chatId: $TELEGRAM_CHAT_ID
 assignees:
   - erozanov
